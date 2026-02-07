@@ -1,17 +1,26 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "description": "html5,css3,js,react,bootstrap5",
-  "main": "./script/app.js",
+  "description": "Frontend application for Ecodation 2026 Full Stack Spring React 4",
+  "main": "assets/js/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Html5",
+    "Css3",
+    "Bootstrap",
+    "JavaScript",
+    "React",
+    "Frontend"
+  ],
+  "author": "Msc Computer Engineer Hamit MIZRAK",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
@@ -19,26 +28,10 @@
   },
   "homepage": "https://github.com/hamitmizrak/Ecodation_2026_FullStack_SpringReact_4_Frontend#readme",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^7.1.0",
-    "@popperjs/core": "^2.11.8",
-    "animate.css": "^4.1.1",
-    "aos": "^2.3.4",
-    "axios": "^1.13.2",
     "bootstrap": "^5.3.8",
-    "counterup2": "^2.0.2",
-    "gh-pages": "^6.3.0",
-    "jquery": "^3.7.1",
-    "jquery-ui": "^1.14.1",
-    "sass": "^1.94.0",
-    "sweetalert2": "^11.26.3",
-    "wowjs": "^1.1.3"
+    "bootstrap-icons": "^1.13.1"
   },
   "devDependencies": {
-    "browser-sync": "^3.0.4",
-    "eslint": "^9.39.1",
-    "http-server": "^14.1.1",
-    "lite-server": "^2.6.1",
-    "parcel": "^2.16.1",
-    "prettier": "^3.6.2"
+    "vite": "^7.3.1"
   }
 }
